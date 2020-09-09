@@ -10,7 +10,7 @@ export class AppController {
     return this.appService.getHello();
   }
   @Get('/description')
-  public getDescription():string{
+  public getDescription(): string {
     return this.appService.getDescriptionProject();
   }
 }
